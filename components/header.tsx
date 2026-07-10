@@ -30,8 +30,8 @@ export function Header({ hash }: HeaderProps) {
     return (
         <header className="fixed left-0 right-0 top-0 z-10 flex h-[70px] w-full items-center justify-center px-4 transition-all duration-300 ease-out max-xl:px-5">
             <div className={clsx(
-                "mx-auto flex w-full max-w-screen-lg items-center justify-between transition-all duration-300 ease-out",
-                isScrolled && "mt-3 rounded-full border  border-border/60 bg-background/50 p-4 max-sm:p-3 shadow-lg backdrop-blur-xl"
+                "mx-auto flex w-full  items-center justify-between transition-all duration-300 ease-out px-5 py-4 max-sm:px-0 max-sm:py-0 max-w-[1072px] ",
+                isScrolled && "mt-3 max-sm:p-3 rounded-full border  border-border/60 bg-background/50 shadow-md backdrop-blur-xl"
             )}>
                 <h2 className="flex items-center gap-1 text-lg font-extrabold uppercase">
                     <AiFillCode className="fill-primary" size={20} />
